@@ -1,0 +1,63 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.st-wrapper {
+
+    position: relative;
+    display: block;
+    width: 80%;
+    margin: 5em auto;
+}
+
+.st-yt {
+
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 500px;
+
+    iFrame {
+
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.st-yt-control {
+    
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 100px;
+    width: 40%;
+    height: 40px;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+
+    li {
+
+        float: left;
+        padding: 3px 10px;
+        margin-right: 10px;
+        background-color: white;
+        color: black;
+        cursor: pointer;
+    }
+
+    &__play {}
+
+    &__stop {}
+
+    &__pause {}
+
+    &__mute {}
+
+    &__unmute {}
+}

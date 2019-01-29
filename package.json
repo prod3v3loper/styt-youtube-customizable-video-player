@@ -1,0 +1,21 @@
+{
+    "name": "youtube-player",
+    "description": "A YouTube API for the YouTube Player",
+    "version": "1.0.0",
+    "author": "Samet Tarim",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/prod3v3loper/youtube-video-player-api/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/prod3v3loper/youtube-video-player-api.git"
+    },
+    "devDependencies": {
+        "grunt": "^1.0.1",
+        "grunt-autoprefixer": "^3.x",
+        "grunt-contrib-less": "^1.4.1",
+        "grunt-contrib-uglify": "^2.1.0",
+        "grunt-contrib-watch": "^1.0.0"
+    }
+}
