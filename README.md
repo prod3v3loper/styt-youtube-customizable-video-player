@@ -1,8 +1,6 @@
 # ***STYT*** - YouTube Customizable Video Player
 > Customize the YouTube Player
 
-![Preview of STYT](img/styt-youtube-customizable-video-player.png "Preview")
-
 Add the html, the video id and to end of body the javascript file, play!
 
 # Usage
