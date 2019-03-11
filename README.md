@@ -28,6 +28,8 @@ Add the minifyed css file and style it as you like.
 
 Just copy this HTML snippet and add the video id of youtube to the `data-v` attribute.
 
+As example: `https://www.youtube.com/watch?v=s9TmSamECro` = `s9TmSamECro`
+
 ```html
         ...
         <div class="st-yt">
