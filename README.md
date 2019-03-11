@@ -28,13 +28,13 @@ Add the minifyed css file and style it as you like.
 
 Just copy this HTML snippet and add the video id of youtube to the `data-v` attribute.
 
-As example: `https://www.youtube.com/watch?v=s9TmSamECro` = `s9TmSamECro`
+As example: `https://www.youtube.com/watch?v=ZnjXIeeJIfg` = `ZnjXIeeJIfg`
 
 ```html
         ...
         <div class="st-yt">
             <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
-            <div id="st-yt-player" data-v="s9TmSamECro"></div>
+            <div id="st-yt-player" data-v="ZnjXIeeJIfg"></div>
             <ul class="st-yt-control">
                 <li>
                     <div class="st-yt-control__play">Play</div>
