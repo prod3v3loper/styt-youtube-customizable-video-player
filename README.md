@@ -13,34 +13,55 @@ Add the html, the video id and to end of body the javascript file, play!
 
 # Usage
 
-Just copy this HTML snippet and add the video id of youtube to the `data-v` attribute.
+Add the minifyed css file and style it as you like.
+
 ```html
-    <div class="st-yt">
-        <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
-        <div id="st-yt-player" data-v="THIEjxJAtA0"></div>
-        <ul class="st-yt-control">
-            <li>
-                <div class="st-yt-control__play">Play</div>
-            </li>
-            <li>
-                <div class="st-yt-control__stop">Stop</div>
-            </li>
-            <li>
-                <div class="st-yt-control__pause">Pause</div>
-            </li>
-            <li>
-                <div class="st-yt-control__mute">Mute</div>
-            </li>
-            <li>
-                <div class="st-yt-control__unmute">Unmute</div>
-            </li>
-        </ul>
-    </div>
+<html>
+    <head>
+        ...
+        <link href="css/styt.css" rel="stylesheet" type="text/css" />
+        ...
+    </head>
+    <body>
+    ...
 ```
-And add the minifyed javascript file
+
+Just copy this HTML snippet and add the video id of youtube to the `data-v` attribute.
+
 ```html
-    <script src="js/styt.js" type="text/javascript"></script>
-</body>
+        ...
+        <div class="st-yt">
+            <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
+            <div id="st-yt-player" data-v="THIEjxJAtA0"></div>
+            <ul class="st-yt-control">
+                <li>
+                    <div class="st-yt-control__play">Play</div>
+                </li>
+                <li>
+                    <div class="st-yt-control__stop">Stop</div>
+                </li>
+                <li>
+                    <div class="st-yt-control__pause">Pause</div>
+                </li>
+                <li>
+                    <div class="st-yt-control__mute">Mute</div>
+                </li>
+                <li>
+                    <div class="st-yt-control__unmute">Unmute</div>
+                </li>
+            </ul>
+        </div>
+        ...
+```
+
+And add the minifyed javascript file.
+
+```html
+        ...
+        <script src="js/styt.js" type="text/javascript"></script>
+        ...
+    </body>
+</html>
 ```
 
 Based on [YouTube demo.js](https://github.com/youtube/api-samples/blob/master/player/demo.js "YouTube demo.js")
