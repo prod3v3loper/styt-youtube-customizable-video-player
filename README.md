@@ -68,6 +68,21 @@ And add the minifyed javascript file.
 
 Based on [YouTube demo.js](https://github.com/youtube/api-samples/blob/master/player/demo.js "YouTube demo.js")
 
+Manipulate with the Player Vars.
+
+`yt.js`
+```js
+playerVars: {
+    "autoplay": 1,
+    "controls": 0,
+    "rel": 0,
+    "theme": "dark",
+    "enablejsapi": 0,
+    "modestbranding": 1,
+    "autohide": 1,
+    "loop": 1
+}
+```
 # Contribute
 
 Please [file an issue](https://github.com/prod3v3loper/styt-youtube-customizable-video-player/issues) if you
