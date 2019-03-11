@@ -17,9 +17,7 @@ var _MBT_YouTubeAPI = {
     /**
      * 2. This code loads the IFrame Player API code asynchronously. And set the eventlisteners
      */
-    __init: function (ID) {
-
-        _MBT_YouTubeAPI.videoID = ID;
+    __init: function () {
 
         var tag = document.createElement('script');
         tag.src = "https://www.youtube.com/player_api";
@@ -133,9 +131,8 @@ var _MBT_YouTubeAPI = {
 
         }
     },
-    onPlayerError: function (event) {
-
-
+    onPlayerError: function (errors) {
+        // Error output
     }
 };
 
