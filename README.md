@@ -43,6 +43,8 @@ And add the minifyed javascript file
 </body>
 ```
 
+Based on [YouTube demo.js](https://github.com/youtube/api-samples/blob/master/player/demo.js "YouTube demo.js")
+
 # Contribute
 
 Please [file an issue](https://github.com/prod3v3loper/styt-youtube-customizable-video-player/issues) if you
@@ -51,8 +53,8 @@ possible.
 
 # Authors
 
-* **Samet Tarim** - *All works* - [prod3v3loper](https://www.tnado.com/author/prod3v3loper/)
+**Samet Tarim** - *All works*
 
 # License
 
-[MIT](https://github.com/prod3v3loper/styt-youtube-customizable-video-player/blob/master/LICENSE)
+[MIT](https://github.com/prod3v3loper/styt-youtube-customizable-video-player/blob/master/LICENSE) - [prod3v3loper](https://www.tnado.com/author/prod3v3loper/)
