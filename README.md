@@ -34,7 +34,7 @@ As example: `https://www.youtube.com/watch?v=s9TmSamECro` = `s9TmSamECro`
         ...
         <div class="st-yt">
             <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
-            <div id="st-yt-player" data-v="THIEjxJAtA0"></div>
+            <div id="st-yt-player" data-v="s9TmSamECro"></div>
             <ul class="st-yt-control">
                 <li>
                     <div class="st-yt-control__play">Play</div>
